@@ -1,0 +1,238 @@
+{
+  "privacyPolicy": {
+    "metadata": {
+      "version": "1.0.0",
+      "effectiveDate": "2025-06-10",
+      "lastUpdated": "2025-07-07",
+      "language": "en",
+      "jurisdiction": "Canada",
+      "applicableRegulations": ["PIPEDA"]
+    },
+    "tableOfContents": [
+      "Interpretation and Definitions",
+      "Types of Information Collected and How We Use it",
+      "Cloud vs. Local Data Storage & Processing",
+      "Data Encryption and Pseudonymization",
+      "How We share Your information",
+      "Retention of Your information",
+      "Your Rights under PIPEDA",
+      "Changes to the Privacy Policy",
+      "Contact Us"
+    ],
+    "sections": {
+      "introduction": {
+				"id": "introduction",
+				"content": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the App and tells You about Your privacy rights and how the Personal Information Protection and Electronic Documents Act (PIPEDA) protects You. We use Your Personal data to provide and improve the App."
+			},
+	  	"interpretationsAndDefinitions": {
+				"id": "interpretationsAndDefinitions",
+				"content": {
+					"you": "refers to the individual accessing or using the Service (Individual under PIPEDA). For the purposes of PIPEDA, You can be referred to as the Individual.",
+					"company": "refers to Sleep Tracker Inc. (Organization under PIPEDA). For the purposes of PIPEDA, Company can be referred to as the Organization",
+					"app": "refers to the Sleep Tracker application that is provided by the Company and downloaded by You on any mobile device ",
+					"personalInformation": "information about an identifiable individual",
+					"personalHealthInformation": "information concerning the physical or mental health of the individual or concerning any health service provided to the individual that is collected, or that is collected in the course of providing health services, or collected incidentally to the provision of health services."
+      	}
+			},
+      "dataCollection": {
+				"id": "dataCollection",
+        "title": "Types of Information Collected and How We Use Your Information",
+        "content": "We collect various types of information to provide and improve Our App for You. The collection and use of this information are directly linked to the specific functionalities and benefits provided by the App.",
+        "personalInformation": {
+					"id": "personalInformation",
+					"title": "Personal Information",
+					"description": "While using Our App, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You.",
+					"accountInformation": {
+						"dataType": "Email Address and Name",
+						"purpose": "Your email address and name are collected to create and manage Your user account, enable secure login, provide essential notifications (e.g., account-related updates), and personalize Your in-app experience. This information is fundamental for Your account functionality and access to the App's services, regardless of Your cloud storage preference for Personal Health Information.",
+						"collectionMethod": "Directly from You when You register for an account.",
+						"storageLocationAndMethods": "Your email address and name are stored on secure Company servers located in Canada. This data is encrypted at rest using industry-standard encryption protocols (e.g., AES-256) to protect it from unauthorized access. All communication involving Your email address and name between Your device and Our servers is encrypted in transit using Transport Layer Security (TLS 1.2 or higher)."
+					}
+				},
+				"personalHealthInformation": {
+					"id": "personalHealthInformation",
+					"title": "Personal Health Information",
+					"description": "Given the nature of a sleep tracking application, We collect information that may be considered Personal Health Information under PIPEDA. ",
+					"sensorData": {
+						"id": "sensorData",
+						"title": "Sensor Data",
+						"microphone": {
+							"id": "microphone",
+							"dataType": "Ambient sound levels",
+							"purpose": "To detect and record ambient sound patterns that may indicate sleep disturbances (e.g., snoring, sleep talking). This data is used to help You identify factors impacting Your sleep environment.",
+							"collectionMethod": "Collected from Your device's microphone sensor while You are using the “Sleep” functionality of the App and explicit permission must be granted."
+						},
+						"accelerometer": {
+							"id": "accelerometer",
+							"dataType": "Motion and movement data",
+							"purpose": "To track Your body movements during sleep, which can help infer sleep stages (e.g., light sleep, deep sleep, REM) and identify restless sleep periods. This data is used to provide You with insights into Your sleep cycles. It is also used to track Your activity levels throughout the day, allowing You to correlate activity levels to sleep quality. ",
+							"collectionMethod": "Collected from Your device's accelerometer sensor continuously in the background and explicit permission must be granted."
+						},
+						"lightSensor": {
+							"id": "lightSensor",
+							"dataType": "Ambient light levels",
+							"purpose": "To monitor the light conditions in Your sleep environment, helping You understand how light exposure may affect Your sleep onset and quality.",
+							"collectionMethod": "Collected from Your device's light sensor while You are using the “Sleep” functionality of the App and explicit permission must be granted."
+						}
+					},
+					"journalData": {
+						"id": "journalData",
+						"dataType": "Mood, Habits, Symptoms, Diary Entries",
+						"purpose": "To allow You to record personal observations about Your daily mood, habits (e.g., caffeine intake, exercise), and any symptoms You are experiencing. This data helps You correlate Your personal experiences with Your sleep patterns and identify potential influences on Your sleep quality.",
+						"collectionMethod": "Directly from You when You voluntarily input entries into the App's journal feature."
+					},
+					"derivedData": {
+						"id": "derivedData",
+						"content": "This type of data is not collected directly from You, but The App will derive this information about You from the Personal Health Information it collects from You. This includes sleep quality scores, correlations between habits and sleep quality and personalized insights. We generate this derived data solely to provide You with more personalized and actionable insights into Your well-being, to help You understand potential correlations between different aspects of Your health, and to improve the relevance of the information and recommendations We offer within the App."
+					}
+				},
+				"usageData": {
+					"id": "usageData",
+					"title": "Usage Data",
+					"description": "Usage Data is collected automatically when You use the App.",
+					"technicalInformation": {
+						"dataType": "Technical Information (device's IP address, device name and model, operating system name and version, unique device identifiers, App version, crash logs, time zone, system language, and country)",
+						"purpose": "To monitor the overall performance and stability of the App, identify and resolve technical issues (e.g., crashes, bugs), understand user engagement with different features, and make improvements to the App's functionality.",
+						"collectionMethod": "Automatically collected from Your device and App interactions.",
+						"storageLocation": "Usage data is stored on our secure Company servers located in Canada. ",
+						"troubleshooting": "For troubleshooting specific issues (e.g., why a particular feature is crashing), this data may be pseudonymized. This allows us to track patterns and resolve problems affecting Your experience without directly identifying You.",
+						"generalAnalytics": "For general analytics and long-term trends (e.g., understanding the most used features or overall performance metrics), this data is anonymized by aggregating it and removing any potential identifiers, ensuring it cannot be linked back to any individual. This helps us to make broad improvements to the App while fully preserving Your privacy."
+					}
+				}
+      },
+      "cloudVsLocalStorage": {
+				"id": "cloudVsLocalStorage",
+        "title": "Cloud vs. Local Data Storage & Processing",
+        "content": "We offer You a choice regarding where Your Personal Health Information (sensor data, journal data and derived data) is stored and processed. You will be presented with a clear choice regarding cloud storage of Personal Health Information upon initial use of the App, and You will have the option to change this setting within the App's privacy settings.",
+				"cloudStorage": {
+					"id": "cloudStorage",
+					"title": "Cloud Storage (Opt-In)",
+					"description": "By opting in to cloud storage, Your Personal Health Information will be securely stored and processed on Google Cloud servers.",
+					"benefits": "This option enables more complex sleep analysis, trending of Your sleep data over longer periods, and future functionalities that require significant computing resources or data synchronization across multiple devices.",
+					"dataLocation": "Please be aware that Google Cloud servers may be located in various data centers globally, including locations outside of Canada. While we choose Google Cloud for its robust security and data management capabilities, data stored outside of the Country may be subject to the laws of the jurisdiction where the servers are located. For more information on Google Cloud's data handling practices, please refer to Google Cloud's Privacy Policy.",
+					"accountability": "Regardless of where Your data is stored by Google Cloud, Sleep Tracker Inc. remains accountable for the protection of Your Personal Information and Personal Health Information under PIPEDA. We enter into contractual agreements with Google Cloud to ensure they provide a comparable level of protection consistent with PIPEDA principles."
+				},
+				"localStorage": {
+					"id": "localStorage",
+					"title": "Local Storage (Default without Cloud Opt-In)",
+					"description": "If You do not opt-in to cloud storage, or opt-out at any time, Your Personal Health Information will be stored primarily on Your local device.",
+					"limitations": "Please be aware that certain advanced or complex sleep analysis features, which require significant computing resources or data synchronization across devices, will not be available when data is stored locally.",
+					"responsibility": "The Company is not responsible for Personal Health Information stored solely on Your local device. If You delete the App from Your device, factory reset Your device, or if Your device is lost or damaged, all locally stored data will be permanently lost, as We do not retain copies of locally stored data on Our servers unless You have opted in for cloud storage.",
+					"consent": "default"
+				}
+      },
+      "dataEncryptionAndPsuedonymization": {
+				"id": "dataEncryptionAndPsuedonymization",
+        "title": "Data Encryption and Pseudonymization",
+        "description": "We employ robust security measures to protect Your data, both at rest and in transit.",
+        "encryption": {
+					"id": "encryption",
+          "atRest": {
+            "serverData": "All Usage Data, Personal Information and Personal Health Information stored on Google Cloud servers and Our servers is encrypted at rest using industry-standard encryption protocols (e.g., AES-256). Google Cloud implements multiple layers of encryption to protect data on its storage devices.",
+            "localData": "Personal Health Information stored locally on Your device is encrypted using standard device-level encryption features available on modern mobile operating systems. This ensures that Your data is protected even if your device is compromised."
+          },
+          "inTransit": "All data transmitted between Your device, Our backend servers (for Account Information), and Google Cloud servers (for cloud-stored Personal Health Information) is encrypted using Transport Layer Security (TLS 1.2 or higher) protocols. This ensures that Your data is protected from interception during transfer."
+        },
+        "pseudonymization": {
+					"id": "pseudonymization",
+          "description": "When Your Personal Health Information (sensor data, journal data and derived data) is transmitted to Google Cloud, it is pseudonymized by replacing direct identifiers (like Your name or email address) with unique, random identifiers. This means that while the data can be linked back to a specific user through a separate mapping held securely by the Company, it is not directly identifiable by Google Cloud or others accessing the pseudonymized data.",
+          "purpose": "Pseudonymization allows us to perform necessary data processing and analysis in the cloud while reducing the direct link between Your Personal Health Information and Your identity, enhancing privacy."
+        }
+      },
+      "dataSharing": {
+				"id": "dataSharing",
+        "title": "How We Share Your Information",
+        "description": "We are committed to strict limitations on data sharing. We do not give Your Personal Information or Personal Health Information to any third parties for marketing, advertising, or any other commercial purposes, with the exceptions stated below. ",
+				"googleCloud": {
+					"title": "Strictly with Google Cloud (only if opted-in)",
+					"description": "The only third-party service provider with whom Your Personal Information and Personal Health Information (Sensor Data, Journal Data and Derived Data) may be shared is Google Cloud, and only if You have explicitly opted in to cloud storage as described in the \"Cloud vs. Local Data Storage & Processing\" section. Google Cloud processes this data solely for the purpose of providing the hosting and processing services necessary for the App's functionality. We do not engage with any other third parties for analytics, advertising, payments, or any other purposes."
+				},
+				"legal": {
+					"title": "For Legal Reasons",
+					"description": "We may disclose Your Personal Information and/or Personal Health Information where required to do so by law or in response to valid requests by public authorities (e.g., a court order or a government agency), but only to the extent necessary and in compliance with PIPEDA. "
+        }
+      },
+      "dataRetention": {
+				"id": "dataRetention",
+        "title": "Retention of Your Information",
+        "description": "We retain Your Personal Information and Personal Health Information only for as long as is necessary to fulfill the purposes for which it was collected, including for satisfying any legal, accounting, or reporting requirements, and to provide you with the services you request.",
+				"accountInformation": {
+					"description": "Your email address and name are retained as long as Your account is active. If You request to delete Your account, Your email address and name will be permanently deleted from Our systems immediately upon receiving and verifying Your request, along with all other associated data.",
+					"dataType": "Email Address and Name"
+				},
+				"personalHealthInformation": {
+					"cloudStored": "If You have opted into cloud storage and subsequently delete the App from Your device, We will retain Your cloud-stored Personal Health Information for a period of one (1) year from the date of App deletion. This is to facilitate Your potential return to the App, allowing You to resume Your sleep tracking without loss of historical data.",
+					"userInitiated": "If You explicitly request Us to delete Your Personal Health Information from the cloud (even if Your account remains active), We will delete it immediately upon receiving and verifying Your request.",
+					"localStored": "As stated above, We are not responsible for locally stored data. This data will be retained on Your device until You delete it or the App, or if Your device is compromised.",
+					"dataType": "Sensor Data, Journal Data and Derived Data"
+				},
+				"usageData": {
+					"pseudonymized": "Psuedonomyzed usage data will be stored on Our servers up to a maximum of two (2) years after which it will be permanently deleted. If you choose to delete Your account or ask Us to delete Your usage data, the direct link between Your account (email/name) and Your pseudonymized usage data will be immediately severed, anonymizing it. This ensures that the remaining usage data, while still useful for overall App improvement, can no longer be associated with You as an identifiable individual.",
+					"anonymized": "Anonymized or aggregated Usage Data may be retained indefinitely for internal analytical purposes to improve the App, as this data does not identify You personally."
+				}
+      },
+      "userRights": {
+				"id": "userRights",
+        "title": "Your Rights under PIPEDA",
+        "description": "Under PIPEDA, You have specific rights regarding Your Personal Information. We are committed to upholding these rights",
+				"access": {
+					"description": "You have the right to request access to the Personal Information We hold about You. We will provide You with access to Your information within 30 days of receiving a written request.",
+					"title": "Right to Access"
+				},
+				"correction": {
+					"description": "You have the right to request that We correct or amend any inaccurate or incomplete Personal Information We hold about You.",
+					"title": "Right to Correction/Rectification"
+				},
+				"withdrawConsent": {
+					"description": "You have the right to withdraw Your consent to the collection, use, and disclosure of Your Personal Information at any time, subject to legal or contractual restrictions and reasonable notice. Please note that withdrawing consent, particularly for essential data (like sensor data or cloud storage), may impact Your ability to use certain features or the entire App. For example, opting out of cloud storage will limit the availability of complex sleep analysis features.",
+					"title": "Right to Withdraw Consent"
+				},
+				"accountability": {
+					"description": "We are accountable for the Personal Information under Our control and will make information about Our policies and practices relating to the management of Personal Information readily available to You through this Privacy Policy and the App’s transparency features.",
+					"title": "Right to Be Informed (Accountability and Openness): "
+				},
+				"challengeCompliance": {
+					"description": "You have the right to address a challenge concerning Our compliance with the above principles to Our Privacy Officer.",
+					"title": "Right to Challenge Compliance"
+				},
+        "exerciseRights": "To exercise any of these rights, please contact Us using the contact information provided below. We may require You to provide specific information to help Us confirm Your identity and Your right to access Your Personal Information."
+      },
+      "dataBreachNotification": {
+				"id": "dataBreachNotification",
+        "title": "Data Breach Notification",
+        "description": "In the event of a breach of security safeguards involving personal information under Our control, We have a comprehensive plan in place to respond and notify You in accordance with PIPEDA requirements.",
+				"riskAssessment": {
+					"title": "Assessment of Risk",
+					"description": "Upon discovering a breach, We will immediately assess whether there is a \"real risk of significant harm\" to any individual whose personal information is involved. \"Significant harm\" includes bodily harm, humiliation, damage to reputation or relationships, loss of employment, business or professional opportunities, financial loss, identity theft, negative effects on the credit record, and damage to or loss of property."
+				},
+				"notificationOPC": {
+					"title": "Notification to the Office of the Privacy Commissioner of Canada (OPC)",
+					"description": "If We determine that there is a real risk of significant harm, We will report the breach to the OPC as soon as feasible. The report will include the prescribed information about the breach."
+				},
+				"notificationIndividuals": {
+					"title": "Notification to Affected Individuals",
+					"description": "If We determine that there is a real risk of significant harm to You, We will notify You as soon as feasible. The notification will be conspicuous and direct (e.g., via email or in-app message) and will include",
+					"content": ["A description of the circumstances of the breach.", "The date or approximate period of the breach.", "A description of the personal information involved.", "The steps We have taken to reduce the risk of harm.", "The steps You can take to reduce Your risk of harm or mitigate any harm.", "Contact information for further inquiry."]
+				},
+				"notificationOtherOrganizations": {
+					"title": "Notification to Other Organizations",
+					"description": "We will also notify any other organization or government institution that may be able to reduce or mitigate the risk of harm resulting from the breach (e.g., law enforcement), as appropriate."
+				},
+				"recordKeeping": {
+					"title": "Record Keeping",
+					"description": "We will keep a record of every breach of security safeguards involving personal information under Our control, regardless of whether it results in a real risk of significant harm. These records will be maintained for a minimum of two years."
+				}
+      },
+      "policyChanges": {
+				"id": "policyChanges",
+				"content": "We reserve the right to change this Privacy Policy from time to time. We will inform You of any significant changes by posting the updated notice in the App and on Our website. If We make any significant changes to Our notice, We will push a notification through the Sleep Tracker app and by e-mail."
+			},	
+			"contact": {
+				"id": "contact",
+				"title": "Contact Us",
+				"description": "We encourage You to contact Us if You have any questions about the notice or about how We process Your personal information.  ",
+				"email": "privacysupport@sleeptracker.com"
+      }
+    }
+  }
+}

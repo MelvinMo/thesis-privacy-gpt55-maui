@@ -1,0 +1,25 @@
+# .NET build output
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Environment variables and secrets — never commit real values
+.env
+.env.local
+.env.*.local
+*.pfx
+*.p12
+*.keystore
+*.jks
+
+# OS
+.DS_Store
+
+# Local tool configuration
+.claude/
